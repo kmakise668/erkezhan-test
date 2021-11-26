@@ -78,8 +78,8 @@ html {
 
 @font-face {
   font-family: "CenturyGothicRegular";
-  src: url("../../fonts/century_gothic.eot");
-  src: url("../../fonts/century_gothic.eot?#iefix") format("embedded-opentype"), url("../../fonts/century_gothic.woff") format("woff"), url("../../fonts/century_gothic.woff2") format("woff2"), url("../../fonts/century_gothic.ttf") format("truetype");
+  src: url("../fonts/century_gothic.eot");
+  src: url("../fonts/century_gothic.eot?#iefix") format("embedded-opentype"), url("../fonts/century_gothic.woff") format("woff"), url("../fonts/century_gothic.woff2") format("woff2"), url("../fonts/century_gothic.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -87,8 +87,8 @@ html {
 
 @font-face {
   font-family: "CenturyGothicRegular";
-  src: url("../../fonts/CenturyGothicBold.eot");
-  src: url("../../fonts/CenturyGothicBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/CenturyGothicBold.woff") format("woff"), url("../../fonts/CenturyGothicBold.woff2") format("woff2"), url("../../fonts/CenturyGothicBold.ttf") format("truetype");
+  src: url("../fonts/CenturyGothicBold.eot");
+  src: url("../fonts/CenturyGothicBold.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothicBold.woff") format("woff"), url("../fonts/CenturyGothicBold.woff2") format("woff2"), url("../fonts/CenturyGothicBold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
