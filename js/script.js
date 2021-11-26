@@ -1,3 +1,5 @@
+//anchor
+
 $('a[href^="#"]').on('click', function(event) {
     event.preventDefault()
     
@@ -6,7 +8,9 @@ $('a[href^="#"]').on('click', function(event) {
     $('html, body').animate({scrollTop: dn}, 700)
 });
 
+
  
+//services-tab
 
 (function($){				
     jQuery.fn.lightTabs = function(options){
@@ -42,6 +46,8 @@ $(document).ready(function(){
 
 
 
+//event-slider
+
 $('.events-slider').slick({
     infinite: true,
     speed: 500,
@@ -70,3 +76,28 @@ $('.events-slider').slick({
 ]
     
 });
+
+
+//preloader
+
+window.onload = function() {
+
+    $('#ctn-preloader').addClass('loaded')
+    $('#ctn-preloader').fadeOut(400)
+
+    setTimeout(function() {
+        var timer = 0
+
+
+        $('#preloader').each(function() {
+            var elem = $(this)
+
+            setTimeout(function() {
+                elem.addClass('animate')
+            }, timer)
+
+            timer += 200
+        })
+    }, 600)
+
+}
